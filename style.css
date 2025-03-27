@@ -94,7 +94,8 @@ h1 {
 
 /* Sobre mi */
 .sobre-mi {
-    height: 1500px;
+    min-width: 600px;
+    height: 800px;
     padding: 10px;
 }
 
@@ -335,5 +336,10 @@ footer {
 @media screen and (min-width: 700px) {
     .hero-inferior-imagen {
         max-width: 600px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .sobre-mi {
+        height: 900px;
     }
 }
