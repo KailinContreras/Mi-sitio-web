@@ -1,12 +1,16 @@
 /* Barra de navegacion */
 .navbar {
     padding: 2rem;
-    background-color: #f7f5f6;
+    background-color: #f7f5f6;    
 }
 
 .navbar-collapse {
     align-items: center;
     justify-content: space-between;
+}
+
+.nav-link {
+    color: rgb(122, 28, 172);
 }
 
 
@@ -25,7 +29,7 @@ h1 {
 
 .seccion-oscura {
     color: white;
-    background-color: #1b1b32;
+    background-color: rgb(46, 7, 63);
 }
 
 .seccion-clara{
@@ -51,12 +55,14 @@ h1 {
 .btn-info {
     font-size: 1.1rem;
     margin: 20px;
-    background-color: #ff0080;
+    background-color: #AD49E1;
+    color: #EBD3F8;
     border: 0px;
 }
 
 .btn-info:hover{
-    background-color: #ff0080;
+    background-color: #EBD3F8;
+    color: #AD49E1;
 }
 
 .texto-negro {
@@ -86,9 +92,13 @@ h1 {
     margin: 20px;
 }
 
+.hero-principal h1 {
+    color: rgb(46, 7, 63);
+}
+
 .hero-principal h2 {
     font-size: 1.5rem;
-    color: #615151;
+    color: rgb(122, 28, 172);
 }
 
 
@@ -107,6 +117,7 @@ h1 {
 /* Experiencia */
 .experiencia {
     padding: 40px;
+    color: #AD49E1;
 }
 
 .experiencia .columna {
@@ -121,19 +132,19 @@ h1 {
 
 .experiencia .columna:hover {
     color: white;
-    background-color: #1b1b32;
+    background-color: rgb(46, 7, 63);
 }
 
 .experiencia i {
     font-size: 2.5rem;
-    color: #ff0080;
-    background-color: #0a0a23;
+    color: rgb(235, 211, 248);
+    background-color: rgb(122, 28, 172);
     padding: 8px 19px;
     border-radius: 50%;
 }
 
 .experiencia .columna:hover i {
-    color: #ff0080;
+    color: rgb(122, 28, 172);
     background-color: white;
 }
 
@@ -151,13 +162,22 @@ h1 {
 
 .badge {
     margin: 5px;
-    background-color: #ff0080;
+    background-color: rgb(235, 211, 248);
+    color: rgb(122, 28, 172);
 }
 
 
 /* Proyectos */
 .proyectos-recientes {
     padding: 40px;
+}
+
+.proyectos-recientes h2 {
+    color: rgb(46, 7, 63);
+}
+
+.proyectos-recientes h3 {
+    color: rgb(122, 28, 172);
 }
 
 .proyectos-recientes img {
@@ -188,6 +208,7 @@ h1 {
     font-size: 25px;
     font-weight: bold;
     margin-bottom: 0;
+    color: rgb(173, 73, 225);
 }
 
 .proyecto {
@@ -207,7 +228,7 @@ h1 {
 }
 
 .overlay i {
-    color: black;
+    color: rgb(173, 73, 225);
     font-size: 60px;
     margin: 10px;
 }
@@ -222,9 +243,9 @@ h1 {
 
 .contacto .rectangulo {
     margin-top: -4rem;
-    background-color: #ff0080;
+    background-color: rgb(122, 28, 172);
     border-radius: 10px;
-    box-shadow: 0px 1px 4px 1px white;
+    box-shadow: 0px 1px 4px 1px rgb(235, 211, 248);
 }
 
 .contacto .row {
@@ -251,7 +272,7 @@ h1 {
 
 .contacto button:hover {
     background-color: white;
-    color: black;
+    color: rgb(122, 28, 172);
 }
 
 .contacto button i {
@@ -261,7 +282,7 @@ h1 {
 }
 
 .contacto button:hover i {
-    color: black;
+    color: rgb(122, 28, 172);
 }
 
 /* Footer (pagina de pie) */
@@ -304,16 +325,16 @@ footer {
 
 .iconos-redes-sociales a:hover {
     background-color: white;
-    border: 2px solid #ff0080;
+    border: 2px solid rgb(173, 73, 225);
 }
 
 .iconos-redes-sociales a:hover i {
-    color: #ff0080aa
+    color: rgb(173, 73, 225);
 }
 
 .derechos-de-autor {
     font-size: 15px;
-    color: #aeaeae;
+    color: #EBD3F8;
     padding: 20px;
 }
 
